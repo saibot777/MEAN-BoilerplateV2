@@ -5,7 +5,7 @@ import {RouterModule} from "@angular/router";
 import {FormsModule} from "@angular/forms";
 import { HttpModule } from '@angular/http';
 
-// import {coreGuards, coreServices} from "./core-collections";
+import { coreServices } from "./core-collections";
 import { ContactsModule } from '../contacts+/contacts.module';
 
 @NgModule({
@@ -21,8 +21,7 @@ import { ContactsModule } from '../contacts+/contacts.module';
   ],
   declarations: [],
   providers: [
-    // ...coreGuards,
-    // ...coreServices
+     ...coreServices
   ]
 })
 export class CoreModule { }

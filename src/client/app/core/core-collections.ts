@@ -1,5 +1,8 @@
-export const coreComponents = [
-    
+import { HttpService } from './services/http.service';
+export const coreGuards = [
+
 ];
   
-export const coreServices = [];
+export const coreServices = [
+    HttpService
+];
